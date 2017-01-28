@@ -1,6 +1,9 @@
 # AreaPickerView_swift
 areapicker in china, easy to use. 中国的地区选择器.简单易用.
 
+
+https://github.com/chquanquan/AreaPickerView_swift/blob/master/Simulator%20Screen%20Shot%202017年1月28日%2020.10.22.png
+
 只需要实现三个代理方法
 
 internal func cancel(areaToolbar: AreaToolbar, textField: UITextField, locate: Location, item: UIBarButtonItem) {
@@ -8,7 +11,6 @@ internal func cancel(areaToolbar: AreaToolbar, textField: UITextField, locate: L
 }
 
 internal func sure(areaToolbar: AreaToolbar, textField: UITextField, locate: Location, item: UIBarButtonItem) {
-print("点击了确定")
 //设置新值
 }
 
