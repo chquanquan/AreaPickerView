@@ -261,7 +261,7 @@ extension AreaPickerView: UIPickerViewDelegate, UIPickerViewDataSource {
     func reloadAreaComponent(pickerView: UIPickerView, row: Int) {
         
         
-        guard row < cities.count - 1 else {
+        guard row <= cities.count - 1 else {
             return
         }
         
