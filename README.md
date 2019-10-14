@@ -10,7 +10,7 @@ areapicker in china, easy to use. 中国的地区选择器.简单易用.
 xib和代码创建的textField都没有问题.....
 
 实现三个代理方法
-
+```
 internal func cancel(areaToolbar: AreaToolbar, textField: UITextField, locate: Location, item: UIBarButtonItem) {
 //还原原来的值......
 }
@@ -22,7 +22,7 @@ internal func sure(areaToolbar: AreaToolbar, textField: UITextField, locate: Loc
 internal func statusChanged(areaPickerView: AreaPickerView, pickerView: UIPickerView, textField: UITextField, locate: Location) {
 //立即显示新值
 }
-
+```
 
 
 如果你使用过程有任何疑问,可以讨论下:  QQ:380341629
